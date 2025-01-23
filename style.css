@@ -2,3 +2,34 @@
     --header-color: #DA5B3E;
     --header-title-color: #BDF178;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    color: var(--header-color);
+}
+
+.top{
+    background-color: var(--header-color);
+}
+
+.date{
+    background-color: white;
+    border-radius: 20px;
+    color: var(--header-color);
+    font-size: 1.5rem;
+    margin-left: auto;
+    display:flex;
+    justify-content: space-around;
+    width:60%;
+}
+
+.title{
+    color: var(--header-title-color);
+    font-size: 2rem;
+    font-weight: bold;
+}
