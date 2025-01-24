@@ -65,16 +65,28 @@ infinite horizontal scroll: https://www.youtube.com/watch?v=Reu0hHbis5w
 .container{
     justify-content: space-around;
     border:5px solid var(--header-color);
-    width:40%;
-    height:1000px;
+    width:80%;
+    height:100px;
     z-index: 2;
-    position: absolute;
-    top:20;
-    left:30%;
+    margin: auto;
 }
 
 .container, .mini-texts{
     opacity: 80%;
+}
+
+.cuisines{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+}
+
+.box{
+    margin: auto;
+}
+
+.box img{
+    width: 80%;
 }
 
 .mini-texts{
