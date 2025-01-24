@@ -87,11 +87,19 @@ infinite horizontal scroll: https://www.youtube.com/watch?v=Reu0hHbis5w
 
 .ingredients{
     z-index: 1;
-    width:100%;
-    height:100%;
+    width:100vw;
+    height:100vh;
+}
+
+.food{
+    display: flex;
+    justify-content: space-around;
+    margin: 150px auto;
+    width: 100%;
+    height: 100%;
 }
 
 .food img{
-    margin:100px auto;
-    width:30%;
+    margin:auto;
+    width:40%;
 }
