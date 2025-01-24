@@ -5,9 +5,8 @@ infinite horizontal scroll: https://www.youtube.com/watch?v=Reu0hHbis5w
 */
 
 :root{
-    --header-color: #C32424;
+    --header-color: #EA6246;
     --header-title-color: #BAF176;
-    --date-color: #E86247;
 }
 
 *{
@@ -50,7 +49,7 @@ infinite horizontal scroll: https://www.youtube.com/watch?v=Reu0hHbis5w
     z-index: 1;
     margin:auto;
     font-size: 22rem;
-    color: var(--date-color);
+    color: var(--header-color);
     font-family: 'Times New Roman', Times, serif;
 }
 
