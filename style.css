@@ -71,10 +71,6 @@ infinite horizontal scroll: https://www.youtube.com/watch?v=Reu0hHbis5w
     margin: auto;
 }
 
-.container, .mini-texts{
-    opacity: 80%;
-}
-
 .cuisines{
     display: flex;
     justify-content: space-around;
