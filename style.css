@@ -44,9 +44,10 @@ infinite horizontal scroll: https://www.youtube.com/watch?v=Reu0hHbis5w
 
 #day{
     position: absolute;
-    top:15;
-    left:35%;
+    top:1;
+    left:40%;
     z-index: 1;
+    margin:auto;
     font-size: 22rem;
     color: var(--header-color);
     font-family: 'Times New Roman', Times, serif;
@@ -79,7 +80,7 @@ infinite horizontal scroll: https://www.youtube.com/watch?v=Reu0hHbis5w
     border-bottom:5px solid var(--header-color);
 }
 
-.ingredients .food{
+.ingredients{
     align-items: center;
 }
 
