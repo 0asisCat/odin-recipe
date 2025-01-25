@@ -5,8 +5,8 @@ infinite horizontal scroll: https://www.youtube.com/watch?v=Reu0hHbis5w
 */
 
 :root{
-    --header-color: #EA6246;
-    --header-title-color: #BAF176;
+    --header-color: #D95540;
+    --header-title-color: #302EB0;
 }
 
 *{
@@ -16,18 +16,18 @@ infinite horizontal scroll: https://www.youtube.com/watch?v=Reu0hHbis5w
     font-family: "Cabin", serif;
 }
 
+body{background-color: #F6ECD2;}
+
 .header, .mini-texts{
     color: var(--header-color);
     margin: auto;
 }
 
 .top{
-    background-color: var(--header-color);
     padding:15px;
 }
 
 .date{
-    background-color: white;
     border-radius: 20px;
     color: var(--header-color);
     font-size: 1.5rem;
@@ -42,7 +42,7 @@ infinite horizontal scroll: https://www.youtube.com/watch?v=Reu0hHbis5w
     font-weight: bolder;
 }
 
-#day{
+.number{
     position: absolute;
     top:1;
     left:40%;
@@ -64,7 +64,6 @@ infinite horizontal scroll: https://www.youtube.com/watch?v=Reu0hHbis5w
 
 .container{
     justify-content: space-around;
-    border:5px solid var(--header-color);
     width:80%;
     height:100px;
     z-index: 2;
@@ -79,18 +78,22 @@ infinite horizontal scroll: https://www.youtube.com/watch?v=Reu0hHbis5w
 
 .box{
     margin: auto;
+    border:5px solid var(--header-title-color);
+    width:350px;
+    height:350px;
+    background-color: var(--header-title-color);
+    position:relative;
 }
 
 .box img{
-    width: 80%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
 }
 
-.mini-texts{
-    font-size: 1.5rem;
-    text-align: center;
-    border-top-style: dotted;
-    border-bottom:5px solid var(--header-color);
-}
 
 .ingredients{
     z-index: 1;
