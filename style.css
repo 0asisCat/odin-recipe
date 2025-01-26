@@ -7,6 +7,7 @@ infinite horizontal scroll: https://www.youtube.com/watch?v=Reu0hHbis5w
 :root{
     --header-color: #D95540;
     --header-title-color: #302EB0;
+    --bg-color: #F6ECD2;
 }
 
 *{
@@ -16,16 +17,20 @@ infinite horizontal scroll: https://www.youtube.com/watch?v=Reu0hHbis5w
     font-family: "Cabin", serif;
 }
 
-body{background-color: #F6ECD2;}
+body{background-color: var(--bg-color);}
+
+.checkered{
+	background-image: repeating-conic-gradient(var(--header-title-color) 0% 25%, var(--bg-color) 0% 50%);
+	background-position: 0 0, 10px 10px;
+	background-size: 50px 50px;
+	background-color: #E4E4ED;	
+    width:100%;
+    height:50px;
+}
 
 .header, .mini-texts{
     color: var(--header-color);
     margin: auto;
-}
-
-.checkered{
-    display:grid;
-
 }
 
 .top{
@@ -65,14 +70,6 @@ body{background-color: #F6ECD2;}
     text-align: center;
     line-height: 1;
     margin: 25px;
-}
-
-.container{
-    justify-content: space-around;
-    width:80%;
-    height:100px;
-    z-index: 2;
-    margin: auto;
 }
 
 .cuisines{
