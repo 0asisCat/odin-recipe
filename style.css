@@ -23,6 +23,11 @@ body{background-color: #F6ECD2;}
     margin: auto;
 }
 
+.checkered{
+    display:grid;
+
+}
+
 .top{
     padding:15px;
 }
@@ -92,6 +97,11 @@ body{background-color: #F6ECD2;}
     left:0;
     bottom:0;
     right:0;
+    filter: hue-rotate(320deg);
+}
+
+.box img:hover{
+    filter: hue-rotate(0deg);
 }
 
 
