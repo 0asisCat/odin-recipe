@@ -92,7 +92,6 @@ body{background-color: var(--bg-color);}
 
 .box img{
     width: 100%;
-    
     filter: hue-rotate(320deg);
 }
 
