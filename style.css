@@ -1,7 +1,6 @@
 /* 
 grain texture design: https://www.youtube.com/watch?v=_ZFghigBmqo
 scroll animaiton: https://www.youtube.com/watch?v=pFtxR-O78sY
-infinite horizontal scroll: https://www.youtube.com/watch?v=Reu0hHbis5w
 */
 
 :root{
@@ -72,7 +71,6 @@ body{background-color: var(--bg-color);}
     font-weight: bold;
     text-align: center;
     line-height: 1;
-    margin: 25px;
 }
 
 .cuisines{
@@ -91,7 +89,10 @@ body{background-color: var(--bg-color);}
 }
 
 .box img{
-    width: 100%;
+    max-width:530px;
+    max-height:250px;
+    width: auto;
+    height: auto;
     filter: hue-rotate(320deg);
 }
 
